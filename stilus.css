@@ -1,6 +1,7 @@
 /* Táblázat beállításai */
 table {
         border-collapse:collapse;  /* szegély összevonása*/
+        background-color: lightblue;
       }
 td,th { 
         border:1px solid black;   /* szegély beállítása */
@@ -9,3 +10,22 @@ td,th {
 
 
 /* További beállítások a feladat szerint */
+
+h1{
+        /*betűszin allitas3 modszere*/
+        color: #2f00ff;
+        color: blue;
+        color: rgb(0,0,255);
+        /*color: red;*/
+}
+
+#vastag{
+        font-weight: bold
+}
+caption{
+        font-style:italic
+}
+h1, h2{
+
+        font-family: Arial, Helvetica, sans-serif;
+}
